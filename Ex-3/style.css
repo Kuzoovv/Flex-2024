@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(192, 186, 178);
+}
+
+.header {
+    display: flex;
+    background-color: white;
+    padding-left: 8px;
+    padding-right: 8px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#logo {
+    color: blueviolet;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.left-item {
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+
+.link {
+    color: blueviolet;
+}
+
+.right-item {
+    display: flex;
+    gap: 10px;
+}
+
+#notification {
+    color: white;
+    background-color: blueviolet;
+    border-radius: 30%;
+    align-self: center;
+}
+
+#button {
+    background-color: blueviolet;
+    width: 50px;
+    height:50px;
+    border-radius: 100%;
+}
